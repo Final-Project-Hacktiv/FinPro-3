@@ -18,6 +18,7 @@
     --blue-color: #020E35;
     --purple-color: #8C32F0;
     --blueSea-color: #32D6F0;
+    --grey-color: #2B2B2B;
 }
 
 body {
@@ -138,6 +139,54 @@ nav {
     z-index: -1;
   }
   
+/* About Us */
+.container{
+    width:100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.kolom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.circle{
+    width: 276px;
+    height: 276px;
+    flex-shrink: 0;
+    margin-left: -141px;
+    background-color: #F0F3FA;
+    border-radius: 276px;
+}
+
+.title-about{
+    align-items: center;
+    text-align: center;
+}
+
+.title-about > h2{
+    color: var(--blue-color);
+    font-family: var(--fontfamily);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title-about > p{
+    width: 823px;
+    height: 75px;
+    color: var(--grey-color);
+    text-align: center;
+    font-family: var(--fontfamily);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+
 /* our work */
 .background {
     background-color: var(--orange-color);
