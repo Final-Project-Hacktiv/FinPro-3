@@ -18,6 +18,7 @@
     --blue-color: #020E35;
     --purple-color: #8C32F0;
     --blueSea-color: #32D6F0;
+    --darkblue-color: #2C3241 ;
 }
 
 body {
@@ -181,11 +182,40 @@ nav {
     color: var(--white-color);
 }
 
+.text18 {
+    font-family: var(--fontfamily);
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--white-color);
+    font-style: normal;
+}
+
+.text18dark {
+    font-family: var(--fontfamily);
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--darkblue-color);
+    font-style: normal;
+}
+
 .text30 {
     font-family: var(--fontfamily);
     font-size: 30px;
     font-weight: 400;
     color: var(--white-color);
+}
+
+.text80 {
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.text30blue {
+    font-family: var(--fontfamily);
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--blue-color);
 }
 
 .bitmapHead {
@@ -271,4 +301,124 @@ nav {
     padding: 15px;
 }
 /* end our work */
+
+/* Contact*/
+.contactHead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* Contact left */
+.contact-left {
+    width: 50%;
+    color: var(--blue-color);
+
+}
+
+.contact-left h1 {
+    line-height: 110px;
+}
+
+.contact-left span {
+
+    color: var(--pink-color);
+}
+
+/* Contact right */
+.contact-right {
+    width: 50%; 
+    margin-top: 5px; 
+}
+
+.contact-right label {
+    font-family: var(--fontfamily);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--blue-color);
+    
+}
+
+.contact-right input[type=text] {
+    width: 100%;
+    padding: 10px 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-right input[type=text]:focus {
+    outline: 1px solid var(--pink-color);
+}
+
+.contact-right input[type=text]::placeholder {
+    font-family: var(--fontfamily);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: var(--blue-color);
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.contact-right textarea {
+    width: 100%;
+    height: 168px;
+    padding: 10px 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    line-height: 36px;
+    color: var(--blue-color);
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-right textarea:focus {
+    outline: 1px solid var(--pink-color);
+    opacity: 1;
+}
+
+.contact-right button {
+    width: 100%;
+    padding: 10px 10px;
+    line-height: 13px;
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+    border: 0;
+    cursor: pointer;
+}
+
+/* Footer*/
+.footer {
+    background: var(--blue-color);
+    color: var(--white-color);
+    text-align: left;
+    padding: 5px;
+    width: 100%;
+}
+
+.footer span {
+    margin-left: 10%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
 
