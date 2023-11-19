@@ -155,27 +155,26 @@ nav {
 .circle{
     width: 276px;
     height: 276px;
-    flex-shrink: 0;
-    margin-left: -141px;
     background-color: #F0F3FA;
     border-radius: 276px;
 }
 
-.title-about{
+.title{
     align-items: center;
     text-align: center;
 }
 
-.title-about > h2{
+.t-about h2{
     color: var(--blue-color);
     font-family: var(--fontfamily);
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 10px;
 }
 
-.title-about > p{
+.t-about > p{
     width: 823px;
     height: 75px;
     color: var(--grey-color);
@@ -184,8 +183,22 @@ nav {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;    
+    line-height: normal;
+    margin-bottom: 20px;
 }
+
+.line{
+    width: 100px;
+    height: 1px;
+    margin: 0 auto 20px;
+    background: #E73587;
+    border: 2px solid #E73587;
+    margin-top: -10px;
+  }
+
+/* Valuable Service */
+
+
 
 /* our work */
 .background {
