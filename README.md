@@ -1,3 +1,3 @@
 # FinPro-3
 
-Link deploy : https://fin-pro2-slicing-ui.vercel.app/
+Link deploy : https://finpro3-slicing-ui-2.vercel.app/
